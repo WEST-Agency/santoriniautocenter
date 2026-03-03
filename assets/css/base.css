@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Akira;
+  src: url(../fonts/Akira_Expanded.otf);
+}
+@font-face {
+  font-family: Creato;
+  src: url(../fonts/CreatoDisplay-Regular.otf);
+}
+@font-face {
+  font-family: Creato-Italic;
+  src: url(../fonts/CreatoDisplay-RegularItalic.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: Creato;
+  font-size: 62.5%;
+}

@@ -23,3 +23,13 @@ html {
   font-family: Creato;
   font-size: 62.5%;
 }
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.title {
+  font-family: Akira;
+}

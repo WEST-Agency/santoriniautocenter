@@ -1,5 +1,7 @@
 header {
   background-color: #fff;
+  position: sticky;
+  top: 0px;
 }
 
 header .container {
@@ -59,6 +61,7 @@ header nav a {
   font-size: 1.4rem;
   color: #000;
   font-family: Creato-Italic;
+  text-transform: uppercase;
   transition: all ease 0.5s;
 
   &:hover {

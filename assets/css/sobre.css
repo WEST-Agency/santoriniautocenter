@@ -42,6 +42,7 @@
 
 @media (width>920px) {
   .sobre {
+    height: calc(100vh - 78px);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,12 +50,13 @@
     padding: 5rem;
 
     .sobre-image {
-      margin-top: 2rem;
+      margin-top: 0rem;
+      margin-right: auto;
     }
 
     .sobre-info {
       flex: 1;
-      padding: 0;
+      padding: 2rem;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;

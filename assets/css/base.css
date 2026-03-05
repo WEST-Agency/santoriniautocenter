@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap");
 @font-face {
   font-family: Akira;
   src: url(../fonts/Akira_Expanded.otf);
@@ -26,7 +27,7 @@ html {
 
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
 }
 

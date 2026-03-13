@@ -1,8 +1,10 @@
 .hero {
-  height: calc(100vh - 78px);
-  background-image: url(../images/hero-bg.png);
+  height: calc(100vh - 76px);
+  background-blend-mode: overlay;
+  background-image: url(../images/hero-bgcl.jpeg);
   background-size: cover;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hero .container {

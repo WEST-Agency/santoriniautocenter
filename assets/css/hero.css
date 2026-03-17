@@ -26,7 +26,7 @@
   font-size: 2rem;
   line-height: 2.5rem;
   text-align: right;
-  color: #fff;
+  color: var(--branco);
   margin-bottom: 1rem;
 }
 
@@ -61,12 +61,13 @@
   .hero .container img {
     width: 12rem;
     margin-bottom: 3rem;
-    margin-left: 5rem;
+    margin-left: 0rem;
   }
 
   .hero .title {
     font-size: 6rem;
     line-height: 7.5rem;
     margin-bottom: 3rem;
+    margin-right: 0;
   }
 }

@@ -9,12 +9,12 @@
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 5rem;
 
     img {
       width: 100%;
-      max-width: 35rem;
+      max-width: 40rem;
       height: auto;
     }
   }
@@ -23,7 +23,6 @@
     flex: 1;
 
     .subtitle {
-      font-family: Creato-Italic;
       font-size: 4rem;
       text-align: center;
       margin-top: 3rem;
@@ -35,7 +34,25 @@
       font-size: 1.7rem;
       line-height: 2.5rem;
       margin-top: 3rem;
-      text-align: center;
+      text-align: justify;
+    }
+
+    a {
+      display: inline-flex;
+      width: 14rem;
+      justify-content: center;
+
+      font-size: 1.7rem;
+      margin-top: 2rem;
+      padding: 1.2rem 1.8rem;
+      background-color: var(--petronas);
+      color: var(--branco);
+      border-radius: 0.8rem;
+      transition: all ease 0.5s;
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 }
@@ -47,7 +64,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 5rem;
+    padding: 0rem;
 
     .sobre-image {
       margin-top: 0rem;
@@ -62,7 +79,6 @@
       justify-content: flex-start;
 
       .subtitle {
-        font-family: Creato-Italic;
         font-size: 7.8rem;
         text-align: right;
         margin-top: 0rem;

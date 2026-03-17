@@ -1,5 +1,5 @@
 header {
-  background-color: #fff;
+  background-color: var(--branco);
   position: sticky;
   top: 0px;
 }
@@ -59,14 +59,14 @@ header nav.opened {
 
 header nav a {
   font-size: 1.4rem;
-  color: #000;
+  color: var(--preto);
   font-family: Creato-Italic;
   text-transform: uppercase;
   transition: all ease 0.5s;
 
   &:hover {
     transform: scale(1.1);
-    color: #00a19b;
+    color: var(--petronas);
   }
 }
 

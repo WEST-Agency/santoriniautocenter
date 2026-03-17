@@ -44,7 +44,7 @@
       font-family: Creato-Italic;
       font-weight: bold;
       font-size: 2.5rem;
-      color: #fff;
+      color: var(--branco);
       text-transform: uppercase;
       text-align: right;
       margin-top: 5rem;
@@ -56,7 +56,7 @@
       margin: auto;
       font-size: 1.7rem;
       text-align: right;
-      color: #fff;
+      color: var(--branco);
       margin-top: 3rem;
       margin-bottom: 3rem;
     }
@@ -76,8 +76,6 @@
     margin-top: 0;
 
     .service-item {
-      .overlay {
-      }
       .item-title {
         font-size: 4.5rem;
       }

@@ -1,0 +1,21 @@
+@import url("fonts.css");
+@import url("base.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("sobre.css");
+@import url("services.css");
+@import url("footer.css");
+
+:root {
+  /*COLORS*/
+  --branco: #fff;
+  --prata: #c8ccce;
+  --ciano: #01f5d1;
+  --petronas: #00a19b;
+  --preto: #000;
+
+  /*Fonts*/
+  --principal: Creato;
+  --principal-italico: Creato-Italic;
+  --destaque: Akira;
+}

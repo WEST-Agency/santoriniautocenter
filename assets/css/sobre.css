@@ -14,7 +14,7 @@
 
     img {
       width: 100%;
-      max-width: 40rem;
+      max-width: 35rem;
       height: auto;
     }
   }
@@ -32,27 +32,17 @@
 
     .desc {
       font-size: 1.7rem;
-      line-height: 2.5rem;
+      line-height: 2.7rem;
       margin-top: 3rem;
       text-align: justify;
     }
 
-    a {
-      display: inline-flex;
-      width: 14rem;
-      justify-content: center;
-
-      font-size: 1.7rem;
+    .desc-destaque {
+      font-size: 1.9rem;
+      font-weight: bold;
+      line-height: 3rem;
+      text-align: right;
       margin-top: 2rem;
-      padding: 1.2rem 1.8rem;
-      background-color: var(--petronas);
-      color: var(--branco);
-      border-radius: 0.8rem;
-      transition: all ease 0.5s;
-
-      &:hover {
-        opacity: 0.8;
-      }
     }
   }
 }
@@ -88,10 +78,18 @@
       }
 
       .desc {
-        font-size: 2rem;
-        line-height: 3rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
         margin-top: 0rem;
         text-align: justify;
+        width: 67rem;
+      }
+      .desc-destaque {
+        font-size: 2.7rem;
+        font-weight: bold;
+        line-height: 3rem;
+        text-align: right;
+        margin-top: 2rem;
       }
     }
   }

@@ -64,7 +64,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 0rem;
+    padding: 0rem 2rem;
 
     .sobre-image {
       margin-top: 0rem;
@@ -94,5 +94,11 @@
         text-align: justify;
       }
     }
+  }
+}
+
+@media (width>1200px) {
+  .sobre {
+    padding: 0rem;
   }
 }

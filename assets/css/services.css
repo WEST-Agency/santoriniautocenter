@@ -1,89 +1,179 @@
 .services {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 100%;
-  margin-top: 2rem;
+  background-blend-mode: overlay;
+  background-image: url(../images/service_img/bgcarousel.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 2rem;
 
-  .item1 {
-    background-blend-mode: overlay;
-    background-image: url(../images/service_img/motor1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
+  .slider {
+    max-width: 80rem;
+    overflow: hidden;
+    margin: auto;
 
-  .item2 {
-    background-blend-mode: overlay;
-    background-image: url(../images/service_img/suspencao.jpg);
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  .item3 {
-    background-blend-mode: overlay;
-    background-image: url(../images/service_img/polish.jpg);
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  .item4 {
-    background-blend-mode: overlay;
-    background-image: url(../images/service_img/car.jpg);
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
+    .slider-area {
+      width: 1200%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all ease 0.5s;
 
-  .service-item {
-    display: flex;
-    flex-direction: column;
+      .slider-item {
+        width: 100%;
+        color: var(--branco);
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-    position: relative;
+        .item-title {
+          font-weight: bold;
+          font-size: 3rem;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
 
-    .item-title {
-      font-family: Creato-Italic;
-      font-weight: bold;
-      font-size: 2.5rem;
-      color: var(--branco);
-      text-transform: uppercase;
-      text-align: right;
-      margin-top: 5rem;
-      margin-right: 2rem;
+        .item-desc {
+          font-size: 2rem;
+          line-height: 3.2rem;
+          margin-bottom: 3rem;
+          text-align: center;
+        }
+
+        .button {
+          display: inline-block;
+          padding: 1rem 2rem;
+          background-color: var(--petronas);
+          border-radius: 0.8rem;
+          margin-bottom: 2rem;
+          font-size: 1.5rem;
+          color: var(--branco);
+        }
+      }
     }
 
-    .item-desc {
-      width: 20rem;
-      margin: auto;
-      font-size: 1.7rem;
-      text-align: right;
-      color: var(--branco);
-      margin-top: 3rem;
-      margin-bottom: 3rem;
+    input {
+      display: none;
     }
-  }
-}
+    .slider-nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
 
-@media (width>600px) {
-  .services {
-    grid-template-columns: repeat(2, 1fr);
+      label {
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 0.2rem solid var(--branco);
+        transition: all ease 0.5s;
+      }
+    }
+
+    #slider-1:checked ~ .slider-area {
+      margin-left: 0%;
+    }
+    #slider-2:checked ~ .slider-area {
+      margin-left: -100%;
+    }
+    #slider-3:checked ~ .slider-area {
+      margin-left: -200%;
+    }
+    #slider-4:checked ~ .slider-area {
+      margin-left: -300%;
+    }
+    #slider-5:checked ~ .slider-area {
+      margin-left: -400%;
+    }
+    #slider-6:checked ~ .slider-area {
+      margin-left: -500%;
+    }
+    #slider-7:checked ~ .slider-area {
+      margin-left: -600%;
+    }
+    #slider-8:checked ~ .slider-area {
+      margin-left: -700%;
+    }
+    #slider-9:checked ~ .slider-area {
+      margin-left: -800%;
+    }
+    #slider-10:checked ~ .slider-area {
+      margin-left: -900%;
+    }
+    #slider-11:checked ~ .slider-area {
+      margin-left: -1000%;
+    }
+    #slider-12:checked ~ .slider-area {
+      margin-left: -1100%;
+    }
+
+    #slider-1:checked ~ .slider-nav .n1 {
+      background-color: var(--petronas);
+    }
+    #slider-2:checked ~ .slider-nav .n2 {
+      background-color: var(--petronas);
+    }
+    #slider-3:checked ~ .slider-nav .n3 {
+      background-color: var(--petronas);
+    }
+    #slider-4:checked ~ .slider-nav .n4 {
+      background-color: var(--petronas);
+    }
+    #slider-5:checked ~ .slider-nav .n5 {
+      background-color: var(--petronas);
+    }
+    #slider-6:checked ~ .slider-nav .n6 {
+      background-color: var(--petronas);
+    }
+    #slider-7:checked ~ .slider-nav .n7 {
+      background-color: var(--petronas);
+    }
+    #slider-8:checked ~ .slider-nav .n8 {
+      background-color: var(--petronas);
+    }
+    #slider-9:checked ~ .slider-nav .n9 {
+      background-color: var(--petronas);
+    }
+    #slider-10:checked ~ .slider-nav .n10 {
+      background-color: var(--petronas);
+    }
+    #slider-11:checked ~ .slider-nav .n11 {
+      background-color: var(--petronas);
+    }
+    #slider-12:checked ~ .slider-nav .n12 {
+      background-color: var(--petronas);
+    }
   }
 }
 
 @media (width>950px) {
   .services {
     height: calc(100vh - 78px);
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     margin-top: 0;
 
-    .service-item {
-      .item-title {
-        font-size: 4.5rem;
-      }
+    .slider {
+      .slider-area {
+        .slider-item {
+          .item-title {
+            font-weight: bold;
+            font-size: 5.5rem;
+            margin-bottom: 2rem;
+            text-align: Left;
+          }
 
-      .item-desc {
-        font-size: 2.5rem;
-        margin-left: auto;
-        margin-right: 2rem;
+          .item-desc {
+            font-size: 2.5rem;
+            text-align: justify;
+          }
+
+          .button {
+            font-size: 2rem;
+          }
+        }
       }
     }
   }

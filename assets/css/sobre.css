@@ -38,8 +38,8 @@
     }
 
     .desc-destaque {
-      font-size: 1.7rem;
-      font-weight: bold;
+      font-family: var(--descDestaque);
+      font-size: 1.6rem;
       line-height: 3rem;
       text-align: right;
       margin-top: 2rem;
@@ -68,11 +68,11 @@
       flex-direction: column;
       justify-content: flex-start;
 
-      .subtitle {
+      .title {
         font-size: 7.8rem;
+        line-height: 4.3rem;
         text-align: right;
         margin-top: 0rem;
-        font-weight: bold;
         text-transform: uppercase;
         padding-bottom: 3rem;
       }
@@ -85,9 +85,8 @@
         width: 67rem;
       }
       .desc-destaque {
-        font-size: 2.7rem;
-        font-weight: bold;
-        line-height: 3rem;
+        font-size: 2.4rem;
+        line-height: 1.9rem;
         text-align: right;
         margin-top: 2rem;
       }

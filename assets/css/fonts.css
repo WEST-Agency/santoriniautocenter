@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap");
 @font-face {
-  font-family: Akira;
-  src: url(../fonts/Akira_Expanded.otf);
+  font-family: Creato-Black-Italic;
+  src: url(../fonts/CreatoDisplay-BlackItalic.otf);
 }
 @font-face {
   font-family: Creato;
@@ -10,4 +10,9 @@
 @font-face {
   font-family: Creato-Italic;
   src: url(../fonts/CreatoDisplay-RegularItalic.otf);
+}
+
+@font-face {
+  font-family: Creato-ExtraItalic;
+  src: url(../fonts/CreatoDisplay-ExtraBoldItalic.otf);
 }

@@ -26,6 +26,7 @@
   font-size: 2rem;
   line-height: 2.5rem;
   text-align: right;
+  text-transform: uppercase;
   color: var(--branco);
   margin-bottom: 1rem;
 }
@@ -69,6 +70,5 @@
     line-height: 3.7rem;
     margin-bottom: 3rem;
     margin-right: 0;
-    text-transform: uppercase;
   }
 }

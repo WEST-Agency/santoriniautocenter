@@ -1,6 +1,6 @@
 footer {
-  background-color: #9b9898;
-  color: #fff;
+  background-color: var(--petronas);
+  color: var(--branco);
   display: flex;
   flex-direction: column;
   align-items: center;

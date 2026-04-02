@@ -28,6 +28,7 @@
       margin-top: 3rem;
       font-weight: bold;
       text-transform: uppercase;
+      color: var(--petronas);
     }
 
     .desc {
@@ -49,7 +50,7 @@
 
 @media (width>920px) {
   .sobre {
-    height: calc(100vh - 78px);
+    height: calc(100vh - 70px);
     display: flex;
     flex-direction: row;
     align-items: center;
